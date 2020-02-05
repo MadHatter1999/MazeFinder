@@ -83,10 +83,16 @@
 		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/main.cpp">
 			<Option target="MazeFinder"/>
 		</Unit>
-		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/tesr.cpp">
+		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stack.cpp">
 			<Option target="MazeFinder"/>
 		</Unit>
-		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/tesr.h">
+		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stack.h">
+			<Option target="MazeFinder"/>
+		</Unit>
+		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stacknode.cpp">
+			<Option target="MazeFinder"/>
+		</Unit>
+		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stacknode.h">
 			<Option target="MazeFinder"/>
 		</Unit>
 		<Unit filename="E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/CMakeLists.txt">

@@ -69,34 +69,49 @@ CMakeFiles/MazeFinder.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\main.cpp -o CMakeFiles\MazeFinder.dir\main.cpp.s
 
-CMakeFiles/MazeFinder.dir/tesr.cpp.obj: CMakeFiles/MazeFinder.dir/flags.make
-CMakeFiles/MazeFinder.dir/tesr.cpp.obj: ../tesr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MazeFinder.dir/tesr.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MazeFinder.dir\tesr.cpp.obj -c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\tesr.cpp
+CMakeFiles/MazeFinder.dir/stacknode.cpp.obj: CMakeFiles/MazeFinder.dir/flags.make
+CMakeFiles/MazeFinder.dir/stacknode.cpp.obj: ../stacknode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MazeFinder.dir/stacknode.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MazeFinder.dir\stacknode.cpp.obj -c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stacknode.cpp
 
-CMakeFiles/MazeFinder.dir/tesr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/tesr.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\tesr.cpp > CMakeFiles\MazeFinder.dir\tesr.cpp.i
+CMakeFiles/MazeFinder.dir/stacknode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/stacknode.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stacknode.cpp > CMakeFiles\MazeFinder.dir\stacknode.cpp.i
 
-CMakeFiles/MazeFinder.dir/tesr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/tesr.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\tesr.cpp -o CMakeFiles\MazeFinder.dir\tesr.cpp.s
+CMakeFiles/MazeFinder.dir/stacknode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/stacknode.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stacknode.cpp -o CMakeFiles\MazeFinder.dir\stacknode.cpp.s
+
+CMakeFiles/MazeFinder.dir/stack.cpp.obj: CMakeFiles/MazeFinder.dir/flags.make
+CMakeFiles/MazeFinder.dir/stack.cpp.obj: ../stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MazeFinder.dir/stack.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MazeFinder.dir\stack.cpp.obj -c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stack.cpp
+
+CMakeFiles/MazeFinder.dir/stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/stack.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stack.cpp > CMakeFiles\MazeFinder.dir\stack.cpp.i
+
+CMakeFiles/MazeFinder.dir/stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/stack.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stack.cpp -o CMakeFiles\MazeFinder.dir\stack.cpp.s
 
 # Object files for target MazeFinder
 MazeFinder_OBJECTS = \
 "CMakeFiles/MazeFinder.dir/main.cpp.obj" \
-"CMakeFiles/MazeFinder.dir/tesr.cpp.obj"
+"CMakeFiles/MazeFinder.dir/stacknode.cpp.obj" \
+"CMakeFiles/MazeFinder.dir/stack.cpp.obj"
 
 # External object files for target MazeFinder
 MazeFinder_EXTERNAL_OBJECTS =
 
 MazeFinder.exe: CMakeFiles/MazeFinder.dir/main.cpp.obj
-MazeFinder.exe: CMakeFiles/MazeFinder.dir/tesr.cpp.obj
+MazeFinder.exe: CMakeFiles/MazeFinder.dir/stacknode.cpp.obj
+MazeFinder.exe: CMakeFiles/MazeFinder.dir/stack.cpp.obj
 MazeFinder.exe: CMakeFiles/MazeFinder.dir/build.make
 MazeFinder.exe: CMakeFiles/MazeFinder.dir/linklibs.rsp
 MazeFinder.exe: CMakeFiles/MazeFinder.dir/objects1.rsp
 MazeFinder.exe: CMakeFiles/MazeFinder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MazeFinder.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MazeFinder.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MazeFinder.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

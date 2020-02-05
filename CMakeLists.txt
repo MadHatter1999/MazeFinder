@@ -3,4 +3,4 @@ project(MazeFinder)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MazeFinder main.cpp)
+add_executable(MazeFinder main.cpp stacknode.cpp stacknode.h stack.cpp stack.h)

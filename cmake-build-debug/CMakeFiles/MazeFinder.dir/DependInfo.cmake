@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/main.cpp" "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/MazeFinder.dir/main.cpp.obj"
-  "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/tesr.cpp" "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/MazeFinder.dir/tesr.cpp.obj"
+  "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stack.cpp" "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/MazeFinder.dir/stack.cpp.obj"
+  "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stacknode.cpp" "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/MazeFinder.dir/stacknode.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

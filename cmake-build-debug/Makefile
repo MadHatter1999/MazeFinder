@@ -149,32 +149,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-tesr.obj: tesr.cpp.obj
+stack.obj: stack.cpp.obj
 
-.PHONY : tesr.obj
+.PHONY : stack.obj
 
 # target to build an object file
-tesr.cpp.obj:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/tesr.cpp.obj
-.PHONY : tesr.cpp.obj
+stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/stack.cpp.obj
+.PHONY : stack.cpp.obj
 
-tesr.i: tesr.cpp.i
+stack.i: stack.cpp.i
 
-.PHONY : tesr.i
+.PHONY : stack.i
 
 # target to preprocess a source file
-tesr.cpp.i:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/tesr.cpp.i
-.PHONY : tesr.cpp.i
+stack.cpp.i:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/stack.cpp.i
+.PHONY : stack.cpp.i
 
-tesr.s: tesr.cpp.s
+stack.s: stack.cpp.s
 
-.PHONY : tesr.s
+.PHONY : stack.s
 
 # target to generate assembly for a file
-tesr.cpp.s:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/tesr.cpp.s
-.PHONY : tesr.cpp.s
+stack.cpp.s:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/stack.cpp.s
+.PHONY : stack.cpp.s
+
+stacknode.obj: stacknode.cpp.obj
+
+.PHONY : stacknode.obj
+
+# target to build an object file
+stacknode.cpp.obj:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/stacknode.cpp.obj
+.PHONY : stacknode.cpp.obj
+
+stacknode.i: stacknode.cpp.i
+
+.PHONY : stacknode.i
+
+# target to preprocess a source file
+stacknode.cpp.i:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/stacknode.cpp.i
+.PHONY : stacknode.cpp.i
+
+stacknode.s: stacknode.cpp.s
+
+.PHONY : stacknode.s
+
+# target to generate assembly for a file
+stacknode.cpp.s:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make CMakeFiles/MazeFinder.dir/stacknode.cpp.s
+.PHONY : stacknode.cpp.s
 
 # Help Target
 help:
@@ -188,9 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... tesr.obj
-	@echo ... tesr.i
-	@echo ... tesr.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
+	@echo ... stacknode.obj
+	@echo ... stacknode.i
+	@echo ... stacknode.s
 .PHONY : help
 
 
