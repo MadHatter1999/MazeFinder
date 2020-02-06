@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stack.cpp" "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/MazeFinder.dir/stack.cpp.obj"
   "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/stacknode.cpp" "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/MazeFinder.dir/stacknode.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

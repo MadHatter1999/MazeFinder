@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "MazeFinder.pdb"
   "MazeFinder.exe"
   "MazeFinder.exe.manifest"
-  "libMazeFinder.dll.a"
+  "MazeFinder.lib"
 )
 
 # Per-language clean rules from dependency scanning.
