@@ -3,8 +3,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-//#define width 51;
-//#define height 51;
+#define MAX_Size 100;
 
 #define H_WALL '-';
 #define V_WALL '|';
@@ -50,11 +49,33 @@ int GetWidth(string url){
     return Width;
 }
 
+void FillArray(string url, char* &array,int height,int width) {
+    ifstream myFile;
+    myFile.open(url);
+    if(myFile.is_open()){
 
+    } else{
+        cout<<"FAILED TO OPEN FILE"<<endl;
+    }
+
+}
 int main() {
-   const string maze_URL="..\\Maps\\maze2.txt";
-    int Height=GetHeight("..\\Maps\\maze3.txt");
-    int  Width=GetWidth("..\\Maps\\maze3.txt");
+    //declaring Max size
+    const int MAX_W=MAX_Size;
+    const int MAX_H=MAX_Size;
+    //Declaring map
+    string maze_URL="..\\Maps\\maze2.txt";
+    //Declaring real size
+    int Height=GetHeight(maze_URL);
+    int  Width=GetWidth(maze_URL);
+    char *maze[MAX_H][MAX_W];
+
+    for (int i = 0; i < Height; ++i) {
+        for (int j = 0; j < Width; ++j) {
+            cout<<j;
+        }
+        cout<<endl;
+    }
     cout<<"Height of Maze: "<<GetHeight(maze_URL)<<endl;
     cout<<"Width of Maze: "<<GetWidth(maze_URL)<<endl;
 

@@ -13,12 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16dd6df0-6c55-4caf-bdd6-4b4432012bd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeFinder.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeFinder.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +68,8 @@
       <updated>1580907930942</updated>
       <workItem from="1580907941383" duration="753000" />
       <workItem from="1580938121916" duration="9168000" />
-      <workItem from="1581438592382" duration="3606000" />
+      <workItem from="1581438592382" duration="3754000" />
+      <workItem from="1581513662892" duration="5059000" />
     </task>
     <task id="LOCAL-00001" summary="Size of maze can be imported">
       <created>1580947239343</created>
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580947239343</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Need to figure out how to generate maze 2d Array">
+      <created>1581442306174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581442306174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Size of maze can be imported" />
-    <option name="LAST_COMMIT_MESSAGE" value="Size of maze can be imported" />
+    <MESSAGE value="Need to figure out how to generate maze 2d Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need to figure out how to generate maze 2d Array" />
   </component>
 </project>
