@@ -2,9 +2,10 @@
 #include <fstream>
 #include <string>
 #include <vector>
-using namespace std;
 #define MAX_Size 100;
+using namespace std;
 
+int M_S=100;
 #define H_WALL '-';
 #define V_WALL '|';
 #define WALL '+';
@@ -49,15 +50,33 @@ int GetWidth(string url){
     return Width;
 }
 
-void FillArray(string url, char* &array,int height,int width) {
+void FillArray(int height,int width,string url, char multiarray[][100]) {
     ifstream myFile;
     myFile.open(url);
     if(myFile.is_open()){
-
+        for (int i = 0; i < height ; ++i) {
+            int subIndex=0;
+            for (int j = 0; j < width; ++j) {
+                    multiarray[i][j]='#';
+                    subIndex=j+1;
+            }
+            multiarray[i][subIndex]='\n';
+        }
     } else{
         cout<<"FAILED TO OPEN FILE"<<endl;
     }
 
+
+}
+
+void PrintMaze(int height, int width,char maze[][100]){
+    for (int i = 0; i <height; ++i) {
+        for (int j = 0; j < width; ++j) {
+            cout<<maze[i][j];
+        }
+            cout<<endl;
+    }
+    cout<<"Test 2.5 Complete"<<endl;
 }
 int main() {
     //declaring Max size
@@ -68,14 +87,11 @@ int main() {
     //Declaring real size
     int Height=GetHeight(maze_URL);
     int  Width=GetWidth(maze_URL);
-    char *maze[MAX_H][MAX_W];
+    char maze[100][100];
+    FillArray(Height, Width,maze_URL, maze );
+    PrintMaze(Height,Width,maze);
 
-    for (int i = 0; i < Height; ++i) {
-        for (int j = 0; j < Width; ++j) {
-            cout<<j;
-        }
-        cout<<endl;
-    }
+
     cout<<"Height of Maze: "<<GetHeight(maze_URL)<<endl;
     cout<<"Width of Maze: "<<GetWidth(maze_URL)<<endl;
 
