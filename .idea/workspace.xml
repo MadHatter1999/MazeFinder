@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16dd6df0-6c55-4caf-bdd6-4b4432012bd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +74,7 @@
       <workItem from="1581545610275" duration="36000" />
       <workItem from="1581611009898" duration="1234000" />
       <workItem from="1581612667001" duration="4957000" />
-      <workItem from="1581683961294" duration="4800000" />
+      <workItem from="1581683961294" duration="5754000" />
     </task>
     <task id="LOCAL-00001" summary="Size of maze can be imported">
       <created>1580947239343</created>
@@ -111,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581686751270</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Array printing added along with clearing">
+      <created>1581688888030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581688888030</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Array printing added along with clearing">
+      <created>1581688950085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581688950085</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +150,7 @@
     <MESSAGE value="need to finish the fill array then transverse the maze to victory" />
     <MESSAGE value="Print Maze was added and still working on the filling the 2d Array with Chars from provided maze files" />
     <MESSAGE value="Almost Done The Fill Array Function Next Up Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost Done The Fill Array Function Next Up Logic" />
+    <MESSAGE value="Array printing added along with clearing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array printing added along with clearing" />
   </component>
 </project>

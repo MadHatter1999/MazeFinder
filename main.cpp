@@ -3,15 +3,11 @@
 #include <string>
 #include <cstring>
 #include <vector>
-#define MAX_Size 100;
 using namespace std;
 
-const int M_S=100;
 #define H_WALL '-';
 #define V_WALL '|';
 #define WALL '+';
-
-
 
 /// Gets the Vertical Demension from maze
 /// \param url
@@ -72,11 +68,13 @@ void FillArray(string url, char multiarray[][100]) {
 
 }
 
+/// Clears the Screen
 void clear(){
     for (int i = 0; i < 25; ++i) {
         cout<<'\n';
     }
 }
+
 /// Prints Maze
 /// \param height
 /// \param width
@@ -90,19 +88,21 @@ void PrintMaze(int height, int width,char maze[][100]){
             cout<<endl;
     }
 }
+
 int main() {
-    //declaring Max size
-    const int MAX_W=MAX_Size;
-    const int MAX_H=MAX_Size;
     //Declaring map
     string maze_URL="..\\Maps\\maze2.txt";
     //Declaring real size
     int Height=GetHeight(maze_URL);
     int  Width=GetWidth(maze_URL);
-
+    //Loading in the map
     char maze[100][100];
     FillArray(maze_URL, maze );
-    maze[1][1]='#';
+    //Cords
+    int StartPoint[]={1,0};
+    int EndPoint[]={Height-2,Width-1};
+    maze[EndPoint[0]][EndPoint[1]]='#';
+    maze[StartPoint[0]][StartPoint[1]]='#';
     PrintMaze(Height,Width,maze);
     return 0;
 }
