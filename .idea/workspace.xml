@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16dd6df0-6c55-4caf-bdd6-4b4432012bd1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1581545610275" duration="36000" />
       <workItem from="1581611009898" duration="1234000" />
       <workItem from="1581612667001" duration="4957000" />
-      <workItem from="1581683961294" duration="5754000" />
+      <workItem from="1581683961294" duration="8798000" />
     </task>
     <task id="LOCAL-00001" summary="Size of maze can be imported">
       <created>1580947239343</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581688950085</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Start and end cord">
+      <created>1581689948039</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581689948040</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +159,7 @@
     <MESSAGE value="Print Maze was added and still working on the filling the 2d Array with Chars from provided maze files" />
     <MESSAGE value="Almost Done The Fill Array Function Next Up Logic" />
     <MESSAGE value="Array printing added along with clearing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array printing added along with clearing" />
+    <MESSAGE value="Start and end cord" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start and end cord" />
   </component>
 </project>

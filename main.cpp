@@ -4,7 +4,7 @@
 #include <cstring>
 #include <vector>
 using namespace std;
-
+#define Player '#';
 #define H_WALL '-';
 #define V_WALL '|';
 #define WALL '+';
@@ -89,6 +89,13 @@ void PrintMaze(int height, int width,char maze[][100]){
     }
 }
 
+
+
+void MazeSolver(char maze[][100], int height, int width,int StartPoint[],int EndPoint[]){
+    PrintMaze(height,width,maze);
+    int Player_Position[]={StartPoint[0],StartPoint[1]};
+    maze[1][3]=Player;
+}
 int main() {
     //Declaring map
     string maze_URL="..\\Maps\\maze2.txt";
@@ -104,6 +111,7 @@ int main() {
     maze[EndPoint[0]][EndPoint[1]]='#';
     maze[StartPoint[0]][StartPoint[1]]='#';
     PrintMaze(Height,Width,maze);
+    MazeSolver(maze,Height,Width,StartPoint,EndPoint);
     return 0;
 }
 
