@@ -104,12 +104,6 @@ int main() {
     FillArray(maze_URL, maze );
     maze[1][1]='#';
     PrintMaze(Height,Width,maze);
-    cout<<"Height of Maze: "<<GetHeight(maze_URL)<<endl;
-    cout<<"Width of Maze: "<<GetWidth(maze_URL)<<endl;
-
-
-
-
     return 0;
 }
 
