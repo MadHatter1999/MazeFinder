@@ -74,7 +74,7 @@
       <workItem from="1581545610275" duration="36000" />
       <workItem from="1581611009898" duration="1234000" />
       <workItem from="1581612667001" duration="4957000" />
-      <workItem from="1581683961294" duration="2739000" />
+      <workItem from="1581683961294" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary="Size of maze can be imported">
       <created>1580947239343</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581620907498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Almost Done The Fill Array Function Next Up Logic">
+      <created>1581686751270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581686751270</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,17 +135,7 @@
     <MESSAGE value="Need to figure out how to generate maze 2d Array" />
     <MESSAGE value="need to finish the fill array then transverse the maze to victory" />
     <MESSAGE value="Print Maze was added and still working on the filling the 2d Array with Chars from provided maze files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print Maze was added and still working on the filling the 2d Array with Chars from provided maze files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>35</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Almost Done The Fill Array Function Next Up Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Done The Fill Array Function Next Up Logic" />
   </component>
 </project>
