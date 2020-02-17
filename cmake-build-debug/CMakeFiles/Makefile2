@@ -60,10 +60,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder
+CMAKE_SOURCE_DIR = "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/MazeFinder.dir
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\c
 CMakeFiles\MazeFinder.dir\all:
 	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\depend
 	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target MazeFinder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target MazeFinder"
 .PHONY : CMakeFiles\MazeFinder.dir\all
 
 # Include target in all.
@@ -82,9 +82,9 @@ all: CMakeFiles\MazeFinder.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\MazeFinder.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" 4
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\MazeFinder.dir\rule
 
 # Convenience name for target.

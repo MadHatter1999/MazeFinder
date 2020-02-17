@@ -1,57 +1,52 @@
 #include <iostream>
-#include "stacknode.h"
-#include "stack.h"
-
-using namespace std;
+#include "Stack.h"
 
 
-Stack::Stack() : _top(NULL)
-{
-}
 
-Stack::~Stack()
-{
-    while( _top != NULL )
-    {
+///Default Construcor for the Stack.
+Stack::Stack() : _top(nullptr) { }
+
+
+///Custom Destructor Function for the Stack
+Stack::~Stack() {
+    while (_top != nullptr) {
         Pop();
     }
 }
 
-myerror_code Stack::Push( int num )
-{
-    _top = new StackNode( num, _top );
-	return(success);
+
+/// Push a new Point to the Stack.
+///@param data Stack being pushed
+void Stack::Push(Point data) {
+    _top = new StackNode(data, _top);
 }
 
-int Stack::Peek()
-{
-    return _top->getData();
+///Peek into the Stack and return the current top cord
+///@return Point from the topmost StackNode.
+Point Stack::Peek() {
+    return _top->getPoint();
 }
 
-myerror_code Stack::Pop()
-{
-	if (_top != NULL) {
-
-		StackNode* node = _top;
-		_top = _top->getNext();
-		delete node;
-		return(success);
-	}
-	else {
-		return(underflow);
-	}
-}
-
-ostream& operator<<( ostream& output, Stack& stack )
-{
-    StackNode *node = stack._top;
-
-    while( node != NULL )
-    {
-        cout << node->getData() << endl;
-        node = node->getNext();
+void Stack::Pop() {
+    if (_top != nullptr) {
+        StackNode* node = _top;
+        _top = _top->getNext();
+        delete node;
+    } else {
+        std::cerr << "error: can not Pop() an empty Stack!" << std::endl;
     }
-
-    return output;
 }
 
+
+///Checks if the Stack is empty.
+///@return Boolean if top is a nullptr.
+bool Stack::empty() {
+    return _top == nullptr;
+}
+
+
+///Return the topmost Point from the Stack.
+///@return Point from the topmost portion of Stack.
+Point Stack::getTop() {
+    return _top->getPoint();
+}

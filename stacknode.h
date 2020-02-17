@@ -1,22 +1,28 @@
-#ifndef _STACKNODE_H
-#define _STACKNODE_H
 
-class StackNode
-{
+//Custom Structure to hold data about positions inside of the Grid and Stack.
+struct Point {
+public:
+    int col {0};
+    int row {1};
+
+    Point() = default;
+    Point(int row, int col) : col(col), row(row) {}
+    bool equals(Point p);
+};
+
+class StackNode {
 private:
-    int _data;
+    Point _data;
     StackNode *_next;
 
 public:
-    StackNode();
-    StackNode( int data, StackNode* next );
+    StackNode(Point data, StackNode* next);
     virtual ~StackNode();
 
-    int getData();
-    void setData( int data );
+    Point getPoint();
+    void setPoint(Point point);
 
     StackNode* getNext();
-    void setNext( StackNode *next );
+    void setNext(StackNode *next);
 };
 
-#endif

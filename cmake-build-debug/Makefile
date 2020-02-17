@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder
+CMAKE_SOURCE_DIR = "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -124,6 +124,60 @@ MazeFinder\fast:
 	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\build
 .PHONY : MazeFinder\fast
 
+Stack.obj: Stack.cpp.obj
+
+.PHONY : Stack.obj
+
+# target to build an object file
+Stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\Stack.cpp.obj
+.PHONY : Stack.cpp.obj
+
+Stack.i: Stack.cpp.i
+
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\Stack.cpp.s
+.PHONY : Stack.cpp.s
+
+StackNode.obj: StackNode.cpp.obj
+
+.PHONY : StackNode.obj
+
+# target to build an object file
+StackNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\StackNode.cpp.obj
+.PHONY : StackNode.cpp.obj
+
+StackNode.i: StackNode.cpp.i
+
+.PHONY : StackNode.i
+
+# target to preprocess a source file
+StackNode.cpp.i:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\StackNode.cpp.i
+.PHONY : StackNode.cpp.i
+
+StackNode.s: StackNode.cpp.s
+
+.PHONY : StackNode.s
+
+# target to generate assembly for a file
+StackNode.cpp.s:
+	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\StackNode.cpp.s
+.PHONY : StackNode.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -151,60 +205,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-stack.obj: stack.cpp.obj
-
-.PHONY : stack.obj
-
-# target to build an object file
-stack.cpp.obj:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\stack.cpp.obj
-.PHONY : stack.cpp.obj
-
-stack.i: stack.cpp.i
-
-.PHONY : stack.i
-
-# target to preprocess a source file
-stack.cpp.i:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\stack.cpp.i
-.PHONY : stack.cpp.i
-
-stack.s: stack.cpp.s
-
-.PHONY : stack.s
-
-# target to generate assembly for a file
-stack.cpp.s:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\stack.cpp.s
-.PHONY : stack.cpp.s
-
-stacknode.obj: stacknode.cpp.obj
-
-.PHONY : stacknode.obj
-
-# target to build an object file
-stacknode.cpp.obj:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\stacknode.cpp.obj
-.PHONY : stacknode.cpp.obj
-
-stacknode.i: stacknode.cpp.i
-
-.PHONY : stacknode.i
-
-# target to preprocess a source file
-stacknode.cpp.i:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\stacknode.cpp.i
-.PHONY : stacknode.cpp.i
-
-stacknode.s: stacknode.cpp.s
-
-.PHONY : stacknode.s
-
-# target to generate assembly for a file
-stacknode.cpp.s:
-	$(MAKE) -f CMakeFiles\MazeFinder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MazeFinder.dir\stacknode.cpp.s
-.PHONY : stacknode.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -214,15 +214,15 @@ help:
 	@echo ... MazeFinder
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Stack.obj
+	@echo ... Stack.i
+	@echo ... Stack.s
+	@echo ... StackNode.obj
+	@echo ... StackNode.i
+	@echo ... StackNode.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... stack.obj
-	@echo ... stack.i
-	@echo ... stack.s
-	@echo ... stacknode.obj
-	@echo ... stacknode.i
-	@echo ... stacknode.s
 .PHONY : help
 
 

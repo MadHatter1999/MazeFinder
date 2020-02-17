@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe 
@@ -45,84 +45,84 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_daae8\fast 
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_daae8.dir\build.make /nologo -L                  CMakeFiles\cmTC_daae8.dir\build
-Building C object CMakeFiles/cmTC_daae8.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nmB3C.tmp
+Run Build Command(s):nmake /nologo cmTC_d88a0\fast 
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_d88a0.dir\build.make /nologo -L                  CMakeFiles\cmTC_d88a0.dir\build
+Building C object CMakeFiles/cmTC_d88a0.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm881A.tmp
 testCCompiler.c
-Linking C executable cmTC_daae8.exe
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_daae8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_daae8.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nmF34.tmp
+Linking C executable cmTC_d88a0.exe
+	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d88a0.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d88a0.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm89B2.tmp
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_fa721\fast 
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_fa721.dir\build.make /nologo -L                  CMakeFiles\cmTC_fa721.dir\build
-Building C object CMakeFiles/cmTC_fa721.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm2069.tmp
+Run Build Command(s):nmake /nologo cmTC_7b92b\fast 
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_7b92b.dir\build.make /nologo -L                  CMakeFiles\cmTC_7b92b.dir\build
+Building C object CMakeFiles/cmTC_7b92b.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm8EE1.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_fa721.exe
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_fa721.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_fa721.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm2155.tmp
+Linking C executable cmTC_7b92b.exe
+	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7b92b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7b92b.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm8F4F.tmp
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_6caee\fast 
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_6caee.dir\build.make /nologo -L                  CMakeFiles\cmTC_6caee.dir\build
-Building C object CMakeFiles/cmTC_6caee.dir/feature_tests.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm2849.tmp
+Run Build Command(s):nmake /nologo cmTC_b5aac\fast 
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_b5aac.dir\build.make /nologo -L                  CMakeFiles\cmTC_b5aac.dir\build
+Building C object CMakeFiles/cmTC_b5aac.dir/feature_tests.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm951B.tmp
 feature_tests.c
-Linking C executable cmTC_6caee.exe
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_6caee.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_6caee.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm2906.tmp
+Linking C executable cmTC_b5aac.exe
+	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b5aac.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b5aac.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm9589.tmp
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_e7b73\fast 
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_e7b73.dir\build.make /nologo -L                  CMakeFiles\cmTC_e7b73.dir\build
-Building CXX object CMakeFiles/cmTC_e7b73.dir/testCXXCompiler.cxx.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm2FFA.tmp
+Run Build Command(s):nmake /nologo cmTC_eb5ac\fast 
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_eb5ac.dir\build.make /nologo -L                  CMakeFiles\cmTC_eb5ac.dir\build
+Building CXX object CMakeFiles/cmTC_eb5ac.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm9AE7.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_e7b73.exe
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e7b73.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e7b73.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm30C6.tmp
+Linking CXX executable cmTC_eb5ac.exe
+	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_eb5ac.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_eb5ac.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm9B65.tmp
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_60e88\fast 
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_60e88.dir\build.make /nologo -L                  CMakeFiles\cmTC_60e88.dir\build
-Building CXX object CMakeFiles/cmTC_60e88.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm3847.tmp
+Run Build Command(s):nmake /nologo cmTC_1c45d\fast 
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_1c45d.dir\build.make /nologo -L                  CMakeFiles\cmTC_1c45d.dir\build
+Building CXX object CMakeFiles/cmTC_1c45d.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nmA075.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_60e88.exe
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_60e88.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_60e88.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm39BF.tmp
+Linking CXX executable cmTC_1c45d.exe
+	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_1c45d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_1c45d.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nmA0D4.tmp
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_7e6b5\fast 
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_7e6b5.dir\build.make /nologo -L                  CMakeFiles\cmTC_7e6b5.dir\build
-Building CXX object CMakeFiles/cmTC_7e6b5.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nm42F5.tmp
+Run Build Command(s):nmake /nologo cmTC_29cc3\fast 
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_29cc3.dir\build.make /nologo -L                  CMakeFiles\cmTC_29cc3.dir\build
+Building CXX object CMakeFiles/cmTC_29cc3.dir/feature_tests.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Antho\AppData\Local\Temp\nmA641.tmp
 feature_tests.cxx
-Linking CXX executable cmTC_7e6b5.exe
-	"C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7e6b5.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7e6b5.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nm4400.tmp
+Linking CXX executable cmTC_29cc3.exe
+	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_29cc3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_29cc3.dir\objects1.rsp @C:\Users\Antho\AppData\Local\Temp\nmA6BF.tmp
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers

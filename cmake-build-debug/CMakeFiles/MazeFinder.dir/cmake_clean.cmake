@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MazeFinder.dir/main.cpp.obj"
-  "CMakeFiles/MazeFinder.dir/stacknode.cpp.obj"
-  "CMakeFiles/MazeFinder.dir/stack.cpp.obj"
+  "CMakeFiles/MazeFinder.dir/StackNode.cpp.obj"
+  "CMakeFiles/MazeFinder.dir/Stack.cpp.obj"
   "MazeFinder.pdb"
   "MazeFinder.exe"
   "MazeFinder.exe.manifest"

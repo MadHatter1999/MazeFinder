@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/Stack.cpp
+iostream
+-
+Stack.h
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/Stack.h
+
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/Stack.h
+ostream
+-
+StackNode.h
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/StackNode.h
+
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/StackNode.cpp
+StackNode.h
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/StackNode.h
+
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/StackNode.h
+
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+cstring
+-
+vector
+-
+stack.h
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/stack.h
+stack
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/stack
+
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/stack.h
+ostream
+-
+StackNode.h
+C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/StackNode.h
+

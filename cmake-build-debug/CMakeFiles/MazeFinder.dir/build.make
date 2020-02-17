@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder
+CMAKE_SOURCE_DIR = "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\MazeFinder.dir\depend.make
@@ -60,78 +60,78 @@ include CMakeFiles\MazeFinder.dir\flags.make
 
 CMakeFiles\MazeFinder.dir\main.cpp.obj: CMakeFiles\MazeFinder.dir\flags.make
 CMakeFiles\MazeFinder.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MazeFinder.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MazeFinder.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MazeFinder.dir\main.cpp.obj /FdCMakeFiles\MazeFinder.dir\ /FS -c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MazeFinder.dir\main.cpp.obj /FdCMakeFiles\MazeFinder.dir\ /FS -c "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\main.cpp"
 <<
 
 CMakeFiles\MazeFinder.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\MazeFinder.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\main.cpp"
 <<
 
 CMakeFiles\MazeFinder.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MazeFinder.dir\main.cpp.s /c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MazeFinder.dir\main.cpp.s /c "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\main.cpp"
 <<
 
-CMakeFiles\MazeFinder.dir\stacknode.cpp.obj: CMakeFiles\MazeFinder.dir\flags.make
-CMakeFiles\MazeFinder.dir\stacknode.cpp.obj: ..\stacknode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MazeFinder.dir/stacknode.cpp.obj"
+CMakeFiles\MazeFinder.dir\StackNode.cpp.obj: CMakeFiles\MazeFinder.dir\flags.make
+CMakeFiles\MazeFinder.dir\StackNode.cpp.obj: ..\StackNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MazeFinder.dir/StackNode.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MazeFinder.dir\stacknode.cpp.obj /FdCMakeFiles\MazeFinder.dir\ /FS -c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stacknode.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MazeFinder.dir\StackNode.cpp.obj /FdCMakeFiles\MazeFinder.dir\ /FS -c "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\StackNode.cpp"
 <<
 
-CMakeFiles\MazeFinder.dir\stacknode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/stacknode.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\MazeFinder.dir\stacknode.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stacknode.cpp
+CMakeFiles\MazeFinder.dir\StackNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/StackNode.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\MazeFinder.dir\StackNode.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\StackNode.cpp"
 <<
 
-CMakeFiles\MazeFinder.dir\stacknode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/stacknode.cpp.s"
+CMakeFiles\MazeFinder.dir\StackNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/StackNode.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MazeFinder.dir\stacknode.cpp.s /c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stacknode.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MazeFinder.dir\StackNode.cpp.s /c "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\StackNode.cpp"
 <<
 
-CMakeFiles\MazeFinder.dir\stack.cpp.obj: CMakeFiles\MazeFinder.dir\flags.make
-CMakeFiles\MazeFinder.dir\stack.cpp.obj: ..\stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MazeFinder.dir/stack.cpp.obj"
+CMakeFiles\MazeFinder.dir\Stack.cpp.obj: CMakeFiles\MazeFinder.dir\flags.make
+CMakeFiles\MazeFinder.dir\Stack.cpp.obj: ..\Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MazeFinder.dir/Stack.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MazeFinder.dir\stack.cpp.obj /FdCMakeFiles\MazeFinder.dir\ /FS -c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stack.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MazeFinder.dir\Stack.cpp.obj /FdCMakeFiles\MazeFinder.dir\ /FS -c "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\Stack.cpp"
 <<
 
-CMakeFiles\MazeFinder.dir\stack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/stack.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\MazeFinder.dir\stack.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stack.cpp
+CMakeFiles\MazeFinder.dir\Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MazeFinder.dir/Stack.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\MazeFinder.dir\Stack.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\Stack.cpp"
 <<
 
-CMakeFiles\MazeFinder.dir\stack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/stack.cpp.s"
+CMakeFiles\MazeFinder.dir\Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MazeFinder.dir/Stack.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MazeFinder.dir\stack.cpp.s /c E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\stack.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MazeFinder.dir\Stack.cpp.s /c "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\Stack.cpp"
 <<
 
 # Object files for target MazeFinder
 MazeFinder_OBJECTS = \
 "CMakeFiles\MazeFinder.dir\main.cpp.obj" \
-"CMakeFiles\MazeFinder.dir\stacknode.cpp.obj" \
-"CMakeFiles\MazeFinder.dir\stack.cpp.obj"
+"CMakeFiles\MazeFinder.dir\StackNode.cpp.obj" \
+"CMakeFiles\MazeFinder.dir\Stack.cpp.obj"
 
 # External object files for target MazeFinder
 MazeFinder_EXTERNAL_OBJECTS =
 
 MazeFinder.exe: CMakeFiles\MazeFinder.dir\main.cpp.obj
-MazeFinder.exe: CMakeFiles\MazeFinder.dir\stacknode.cpp.obj
-MazeFinder.exe: CMakeFiles\MazeFinder.dir\stack.cpp.obj
+MazeFinder.exe: CMakeFiles\MazeFinder.dir\StackNode.cpp.obj
+MazeFinder.exe: CMakeFiles\MazeFinder.dir\Stack.cpp.obj
 MazeFinder.exe: CMakeFiles\MazeFinder.dir\build.make
 MazeFinder.exe: CMakeFiles\MazeFinder.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MazeFinder.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MazeFinder.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\MazeFinder.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\MazeFinder.dir\objects1.rsp @<<
- /out:MazeFinder.exe /implib:MazeFinder.lib /pdb:E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\MazeFinder.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:MazeFinder.exe /implib:MazeFinder.lib /pdb:"C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\MazeFinder.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles\MazeFinder.dir\clean:
 .PHONY : CMakeFiles\MazeFinder.dir\clean
 
 CMakeFiles\MazeFinder.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug E:\School\DataStructure\AssignmentTwo\MazeFinder\MazeFinder\cmake-build-debug\CMakeFiles\MazeFinder.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder" "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder" "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug" "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug" "C:\Users\Antho\OneDrive\Desktop\School\MazeFinder C++\MazeFinder\cmake-build-debug\CMakeFiles\MazeFinder.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\MazeFinder.dir\depend
 

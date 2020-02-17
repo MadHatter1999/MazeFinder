@@ -1,4 +1,4 @@
-# Install script for directory: E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder
+# Install script for directory: C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/School/DataStructure/AssignmentTwo/MazeFinder/MazeFinder/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Antho/OneDrive/Desktop/School/MazeFinder C++/MazeFinder/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

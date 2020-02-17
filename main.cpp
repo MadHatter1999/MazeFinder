@@ -3,11 +3,18 @@
 #include <string>
 #include <cstring>
 #include <vector>
+#include "stack.h"
+#include "stack"
 using namespace std;
+
 #define Player '#';
 #define H_WALL '-';
 #define V_WALL '|';
 #define WALL '+';
+
+
+
+
 
 /// Gets the Vertical Demension from maze
 /// \param url
@@ -76,9 +83,9 @@ void clear(){
 }
 
 /// Prints Maze
-/// \param height
-/// \param width
-/// \param maze
+/// \param height of maze INT
+/// \param width of maze INT
+/// \param maze array of maze Pointer to a 100,100 array
 void PrintMaze(int height, int width,char maze[][100]){
     clear();
     for (int i = 0; i <height; ++i) {
@@ -90,29 +97,51 @@ void PrintMaze(int height, int width,char maze[][100]){
 }
 
 
+void OutputMazeTo_TXT(){
 
-void MazeSolver(char maze[][100], int height, int width,int StartPoint[],int EndPoint[]){
-    PrintMaze(height,width,maze);
-    int Player_Position[]={StartPoint[0],StartPoint[1]};
-    maze[1][3]=Player;
 }
-int main() {
-    //Declaring map
-    string maze_URL="..\\Maps\\maze2.txt";
-    //Declaring real size
-    int Height=GetHeight(maze_URL);
-    int  Width=GetWidth(maze_URL);
-    //Loading in the map
-    char maze[100][100];
-    FillArray(maze_URL, maze );
-    //Cords
-    int StartPoint[]={1,0};
-    int EndPoint[]={Height-2,Width-1};
-    maze[EndPoint[0]][EndPoint[1]]='#';
-    maze[StartPoint[0]][StartPoint[1]]='#';
-    PrintMaze(Height,Width,maze);
-    MazeSolver(maze,Height,Width,StartPoint,EndPoint);
-    return 0;
-}
+
+void MazeSolver(char maze[][100], int height, int width,Point StartPoint,Point EndPoint) {
+
+    enum Direction {
+        North = 0, East = 1, South = 2, West = 3
+    };
+
+    //start stack
+    Stack stack = Stack();
+
+    maze[1][3] = Player;
+    //Flag for finishing maze
+    bool has_solved = false;
+    //adding the first move to the stack of awesomeness
+    stack.Push(StartPoint);
+    Point Player_Position = StartPoint;
+    while (!has_solved) {
+        Player_Position.col+=1;
+        maze[Player_Position.row][Player_Position.col]=Player;
+        PrintMaze(height,width,maze);
+        if(Player_Position.col==width){
+            break;
+        }
+    }
+    }
+    int main() {
+
+        //Declaring map
+        string maze_URL = "..\\Maps\\maze2.txt";
+        //Declaring real size
+        int Height = GetHeight(maze_URL);
+        int Width = GetWidth(maze_URL);
+        //Loading in the map
+        char maze[100][100];
+        FillArray(maze_URL, maze);
+        //Cords
+        Point StartPoint = {1, 0};
+        Point EndPoint = {Height - 2, Width - 1};
+        MazeSolver(maze, Height, Width, StartPoint, EndPoint);
+
+
+        return 0;
+    }
 
 

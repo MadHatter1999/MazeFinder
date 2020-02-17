@@ -1,14 +1,7 @@
-#ifndef _STACK_H
-#define _STACK_H
+#include <ostream>
+#include "StackNode.h"
 
-#include <iostream>
-#include "stacknode.h"
-
-using namespace std;
-enum myerror_code { success, underflow, overflow };
-
-class Stack
-{
+class Stack {
 private:
     StackNode *_top;
 
@@ -16,11 +9,11 @@ public:
     Stack();
     virtual ~Stack();
 
-    myerror_code Push( int num );
-    int Peek();
-    myerror_code Pop();
+    void Push(Point data);
+    Point Peek();
+    void Pop();
+    bool empty();
 
-    friend ostream& operator<<( ostream& output, Stack& stack );
+    Point getTop();
 };
 
-#endif
