@@ -3,17 +3,18 @@
 #include <string>
 #include <cstring>
 #include <vector>
-#include "stack.h"
+#include "Stack.h"
 #include "stack"
 using namespace std;
 
-#define Player '#';
-#define H_WALL '-';
-#define V_WALL '|';
-#define WALL '+';
 
 
-
+enum Direction {
+    Up = 0, Right = 1, Down = 2, Left = 3
+};
+enum mazeDetails{
+    Empty = ' ', Used = '#', Dead = 'D'
+};
 
 
 /// Gets the Vertical Demension from maze
@@ -53,6 +54,8 @@ int GetWidth(string url){
     myFile.close();
     return Width;
 }
+
+
 /// Fills Array with maze from file
 /// \param url
 /// \param multiarray
@@ -77,7 +80,7 @@ void FillArray(string url, char multiarray[][100]) {
 
 /// Clears the Screen
 void clear(){
-    for (int i = 0; i < 25; ++i) {
+    for (int i = 0; i < 10; ++i) {
         cout<<'\n';
     }
 }
@@ -87,48 +90,137 @@ void clear(){
 /// \param width of maze INT
 /// \param maze array of maze Pointer to a 100,100 array
 void PrintMaze(int height, int width,char maze[][100]){
-    clear();
     for (int i = 0; i <height; ++i) {
         for (int j = 0; j < width; ++j) {
-            cout<<maze[i][j];
+            char placeHolder;
+            if(maze[i][j]=='D'){
+                placeHolder=Empty;
+            }
+            else{
+                placeHolder=maze[i][j];
+            }
+            cout<<placeHolder;
         }
             cout<<endl;
     }
 }
-
-
-void OutputMazeTo_TXT(){
-
+/// Checks if Wall is in the move you wish to make is valid
+/// \param Player_Pos
+/// \param Dir
+/// \param maze
+/// \return
+bool Check_Move(Point *Player_Pos,Direction Dir,char maze[][100]){
+    switch(Dir){
+        case Up:
+            return (maze[Player_Pos->row - 1][Player_Pos->col]==Empty);
+        case Right:
+            return (maze[Player_Pos->row][Player_Pos->col+1]==Empty);
+        case Down:
+            return (maze[Player_Pos->row+1][Player_Pos->col]==Empty);
+        case Left:
+            return (maze[Player_Pos->row][Player_Pos->col-1]==Empty);
+    }
+}
+/// This here moves player depending on direction
+/// \param maze
+/// \param player
+/// \param stack
+/// \param Dir
+void Move_Player(char maze[][100],Point *player, Stack *stack, Direction Dir){
+    stack->Push(*player);
+    maze[player->row][player->col]=Used;
+    switch(Dir){
+        case Up:
+            player->row-=1;
+            break;
+        case Right:
+            player->col+=1;
+            break;
+        case Down:
+            player->row+=1;
+            break;
+        case Left:
+            player->col-=1;
+            break;
+    }
+}
+///OutPuts Mazes
+/// to Text File
+/// \param maze
+/// \param File
+/// \param Height
+/// \param Width
+void OutputMazeTo_TXT(char maze[][100],string File,int Height,int Width){
+    string Dir="..\\Solved\\";
+    ofstream Solution;
+    Solution.open(Dir+File);
+    for (int i = 0; i < Height; i++) {
+        for (int x = 0; x < Width; x++) {
+            char PlaceHolder;
+            if(maze[i][x]=='D'){
+                PlaceHolder=' ';
+            }
+            else{
+                PlaceHolder=maze[i][x];
+            }
+            Solution << PlaceHolder;
+        }
+        Solution<<"\n";
+    }
+    Solution.close();
 }
 
-void MazeSolver(char maze[][100], int height, int width,Point StartPoint,Point EndPoint) {
 
-    enum Direction {
-        North = 0, East = 1, South = 2, West = 3
-    };
-
+/// Solves the maze
+/// \param maze
+/// \param height
+/// \param width
+/// \param StartPoint
+/// \param EndPoint
+/// \param File
+void MazeSolver(char maze[][100], int height, int width,Point StartPoint,Point EndPoint,string File) {
     //start stack
     Stack stack = Stack();
-
-    maze[1][3] = Player;
-    //Flag for finishing maze
-    bool has_solved = false;
-    //adding the first move to the stack of awesomeness
-    stack.Push(StartPoint);
-    Point Player_Position = StartPoint;
-    while (!has_solved) {
-        Player_Position.col+=1;
-        maze[Player_Position.row][Player_Position.col]=Player;
-        PrintMaze(height,width,maze);
-        if(Player_Position.col==width){
-            break;
+    Point Player_Pos=StartPoint;
+    while(!Player_Pos.equals(EndPoint)){
+        //Direction checking
+        if(Check_Move(&Player_Pos,Right,maze)){
+            Move_Player(maze,&Player_Pos,&stack,Right);
+            continue;
         }
-    }
-    }
-    int main() {
+        if(Check_Move(&Player_Pos,Down,maze)){
+            Move_Player(maze,&Player_Pos,&stack,Down);
+            continue;
+        }
+        if(Check_Move(&Player_Pos,Left,maze)){
+            Move_Player(maze,&Player_Pos,&stack,Left);
+            continue;
+        }
+        if(Check_Move(&Player_Pos,Up,maze)){
+            Move_Player(maze,&Player_Pos,&stack,Up);
+            continue;
+        }
 
+        //Back Tracking
+        if(!stack.empty()){
+            maze[Player_Pos.row][Player_Pos.col]=Dead;
+            Player_Pos=stack.getTop();
+            stack.Pop();
+            continue;
+        }
+
+    }
+    OutputMazeTo_TXT(maze,File,height,width);
+    PrintMaze(height,width,maze);
+}
+    int main() {
+        cout<<"Welcome to Maze Solver"<<endl;
+
+        string Dir="..\\Maps\\";
+        cout<<"Maze"<<endl;
+        string File="maze.txt";
         //Declaring map
-        string maze_URL = "..\\Maps\\maze2.txt";
+        string maze_URL = Dir+File;
         //Declaring real size
         int Height = GetHeight(maze_URL);
         int Width = GetWidth(maze_URL);
@@ -138,8 +230,50 @@ void MazeSolver(char maze[][100], int height, int width,Point StartPoint,Point E
         //Cords
         Point StartPoint = {1, 0};
         Point EndPoint = {Height - 2, Width - 1};
-        MazeSolver(maze, Height, Width, StartPoint, EndPoint);
+        MazeSolver(maze, Height, Width, StartPoint, EndPoint,File);
 
+        //Maze2
+        cout<<"Maze2"<<endl;
+        File="maze2.txt";
+        maze_URL = Dir+File;
+        Height = GetHeight(maze_URL);
+        Width = GetWidth(maze_URL);
+        FillArray(maze_URL, maze);
+        EndPoint = {Height - 2, Width - 1};
+        MazeSolver(maze, Height, Width, StartPoint, EndPoint,File);
+        clear();
+
+        //Maze 3
+        cout<<"Maze3"<<endl;
+        File="maze3.txt";
+        maze_URL = Dir+File;
+        Height = GetHeight(maze_URL);
+        Width = GetWidth(maze_URL);
+        FillArray(maze_URL, maze);
+        EndPoint = {Height - 2, Width - 1};
+        MazeSolver(maze, Height, Width, StartPoint, EndPoint,File);
+        clear();
+
+        //Maze 4
+        cout<<"Maze4"<<endl;
+        File="maze4.txt";
+        maze_URL = Dir+File;
+        Height = GetHeight(maze_URL);
+        Width = GetWidth(maze_URL);
+        FillArray(maze_URL, maze);
+        EndPoint = {Height - 2, Width - 1};
+        MazeSolver(maze, Height, Width, StartPoint, EndPoint,File);
+        clear();
+
+        //Maze X
+        cout<<"MazeX"<<endl;
+        File="mazex.txt";
+        maze_URL = Dir+File;
+        Height = GetHeight(maze_URL);
+        Width = GetWidth(maze_URL);
+        FillArray(maze_URL, maze);
+        EndPoint = {Height - 2, Width - 1};
+        MazeSolver(maze, Height, Width, StartPoint, EndPoint,File);
 
         return 0;
     }

@@ -26,3 +26,4 @@ public:
     void setNext(StackNode *next);
 };
 
+

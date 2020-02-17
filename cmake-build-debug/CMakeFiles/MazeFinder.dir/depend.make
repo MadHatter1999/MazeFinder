@@ -8,7 +8,7 @@ CMakeFiles\MazeFinder.dir\Stack.cpp.obj: ..\StackNode.h
 CMakeFiles\MazeFinder.dir\StackNode.cpp.obj: ..\StackNode.cpp
 CMakeFiles\MazeFinder.dir\StackNode.cpp.obj: ..\StackNode.h
 
+CMakeFiles\MazeFinder.dir\main.cpp.obj: ..\Stack.h
 CMakeFiles\MazeFinder.dir\main.cpp.obj: ..\StackNode.h
 CMakeFiles\MazeFinder.dir\main.cpp.obj: ..\main.cpp
-CMakeFiles\MazeFinder.dir\main.cpp.obj: ..\stack.h
 
